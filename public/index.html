@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Genie - Talent Booking Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-magic"></i>
+            Event Genie
+        </div>
+        <div class="nav-links">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search for performers, events...">
+            </div>
+            <a href="#performers" class="nav-link"><i class="fas fa-star"></i> Performers</a>
+            <a href="#organizers" class="nav-link"><i class="fas fa-calendar-alt"></i> Events</a>
+            <a href="#login" class="login-btn">Login</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Find Perfect Talent for Your Event</h1>
+                <p>Book amazing performers, musicians, comedians, and artists for your next event. Make it unforgettable!</p>
+                <div class="hero-cta">
+                    <a href="#browse" class="cta-button primary">
+                        <i class="fas fa-search"></i>
+                        Find Performers
+                    </a>
+                    <a href="#host" class="cta-button secondary">
+                        <i class="fas fa-calendar-plus"></i>
+                        Host Event
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">10,000+</div>
+                        <div class="stat-label">Verified Artists</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50,000+</div>
+                        <div class="stat-label">Events Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4.8/5</div>
+                        <div class="stat-label">Average Rating</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://source.unsplash.com/random/800x900/?concert,performance" alt="Event Performance">
+                <div class="floating-cards">
+                    <div class="float-card">
+                        <i class="fas fa-music"></i>
+                        <div>
+                            <h4>Live Music</h4>
+                            <p>500+ Artists</p>
+                        </div>
+                    </div>
+                    <div class="float-card">
+                        <i class="fas fa-theater-masks"></i>
+                        <div>
+                            <h4>Comedy Shows</h4>
+                            <p>200+ Comedians</p>
+                        </div>
+                    </div>
+                    <div class="float-card">
+                        <i class="fas fa-star"></i>
+                        <div>
+                            <h4>Top Rated</h4>
+                            <p>98% Success Rate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trending">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Trending Artists</h2>
+            <p>Discover the most booked performers this month</p>
+        </div>
+        <div class="performer-cards">
+            <div class="performer-card" data-aos="fade-up">
+                <div class="performer-image">
+                    <img src="https://source.unsplash.com/random/600x400/?concert" alt="Performer">
+                    <div class="performer-overlay">
+                        <span class="category">Music</span>
+                        <div class="rating"><i class="fas fa-star"></i> 4.8</div>
+                    </div>
+                </div>
+                <div class="performer-info">
+                    <h3>Electric Dreams</h3>
+                    <p>Electronic • House • EDM</p>
+                    <div class="performer-meta">
+                        <span class="price">From $800</span>
+                        <button class="book-now">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more performer cards with different data-aos-delay -->
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="glass-morphism">
+            <h2 data-aos="fade-up">Why Choose Us</h2>
+            <div class="feature-grid">
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure Booking</h3>
+                    <p>100% secure payments with money-back guarantee</p>
+                </div>
+                <!-- Add more feature cards -->
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" data-aos="fade-up">
+        <div class="cta-content">
+            <h2>Ready to Host an Unforgettable Event?</h2>
+            <p>Join thousands of successful event organizers</p>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Download Our App</h4>
+                <div class="app-buttons">
+                    <button class="app-btn"><i class="fab fa-apple"></i> App Store</button>
+                    <button class="app-btn"><i class="fab fa-google-play"></i> Play Store</button>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out',
+            once: true
+        });
+    </script>
+</body>
+</html> 
